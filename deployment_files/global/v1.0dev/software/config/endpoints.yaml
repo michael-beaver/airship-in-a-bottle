@@ -195,6 +195,21 @@ data:
         default: http
       host_fqdn_override:
         default: null
+    crows-nest:
+      name: crows-nest
+      hosts:
+        default: crows-nest-int
+        public: crows-nest
+      port:
+        api:
+          default: 80
+          public: 80
+      path:
+        default: /
+      scheme:
+        default: http
+      host_fqdn_override:
+        default: null
   ceph:
     object_store:
       name: swift

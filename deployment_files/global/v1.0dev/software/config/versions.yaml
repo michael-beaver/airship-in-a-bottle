@@ -290,7 +290,11 @@ data:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         subpath: helm-toolkit
         reference: b6fc24b9960bc6de29aa70c7d5b7725319046160
-
+      crows-nest:
+        type: git
+        location: https://github.com/michael-beaver/crows-nest.git
+        subpath: charts/crows-nest
+        reference: master
   files:
     kubelet: https://dl.k8s.io/v1.10.2/kubernetes-node-linux-amd64.tar.gz
   images:
