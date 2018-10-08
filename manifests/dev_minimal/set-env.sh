@@ -24,13 +24,13 @@
 # frequently changed
 
 # The hostname for the genesis node
-export SHORT_HOSTNAME=testvm1
+export SHORT_HOSTNAME=michaelairship
 # The IP address of the genesis node
-export HOSTIP=10.0.0.9
+export HOSTIP=10.0.2.15
 # The CIDR of the network for the genesis node
 export HOSTCIDR=10.0.0.0/24
 # The network interface on the genesis node
-export NODE_NET_IFACE=ens3
+export NODE_NET_IFACE=enp0s3
 
 # Repositories
 # export AIRSHIP_IN_A_BOTTLE_REPO="https://git.openstack.org/openstack/airship-in-a-bottle"
@@ -48,6 +48,6 @@ export NODE_NET_IFACE=ens3
 # export WORKSPACE="/root/deploy"
 
 # The site to deploy
-export TARGET_SITE="dev"
+#export TARGET_SITE="dev"
 # If running behind a proxy
-# export TARGET_SITE="dev-proxy"
+export TARGET_SITE="dev-proxy"

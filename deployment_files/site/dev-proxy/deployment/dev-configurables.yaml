@@ -8,3 +8,8 @@ metadata:
     layer: site
   storagePolicy: cleartext
 # Data section provided by deploy_ucp.sh script
+data:
+  hostname: michaelairship
+  hostip: 10.0.2.15
+  hostcidr: 10.0.0.0/24
+  interface: enp0s3
